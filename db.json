@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 43156311,
+      "login": "AdriandersonLira",
+      "name": "Adrianderson Lira",
+      "location": "Brasil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43156311?v=4",
+      "updated_at": "2021-09-21T13:54:21Z",
+      "created_at": "2018-09-10T23:43:28Z"
+    },
+    {
+      "id": 60081611,
+      "login": "xuaoneto",
+      "name": "João Fernandes Praxedes Neto",
+      "location": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/60081611?v=4",
+      "updated_at": "2021-09-17T15:02:28Z",
+      "created_at": "2020-01-20T01:56:00Z"
+    }
+  ]
+}

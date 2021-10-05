@@ -1,0 +1,152 @@
+// inicio home
+
+.general {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: #f2f3f5;
+}
+
+.page-container {
+  position: absolute;
+  width: calc(100vw - 25%);
+  height: 100vh;
+  left: 25%;
+}
+
+.avatar {
+  width: 10rem;
+  margin-bottom: 3rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #666666;
+  margin: 0 20px;
+}
+.exp-bar {
+  width: 845px;
+  height: 4px;
+  background: #dcdde0;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+.exp-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  margin-top: 48px;
+}
+.center-container {
+  position: absolute;
+  top: 187px;
+  right: 184px;
+  bottom: 133px;
+  left: 0%;
+  display: flex;
+}
+.level-container {
+  display: flex;
+}
+.player-name {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #2e384d;
+  margin: 0 0 15px 0;
+}
+.left-container {
+  width: 400px;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  .completed-challs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 44px;
+    border-bottom: 1.5px solid #d7d8da;
+    margin-top: 72px;
+    margin-bottom: 80px;
+    p {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #666666;
+      margin: 15px 0 0 0;
+    }
+  }
+  .button-start {
+    width: 100%;
+    height: 80px;
+    background: #5965e0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    transition: all 0.3s;
+    &:hover {
+      transform: scale(1.05);
+    }
+    p {
+      margin: auto;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+}
+.right-container {
+  height: 568px;
+  width: 468px;
+  margin-left: 103px;
+  background: #ffffff;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 110px 0 110px 0;
+  align-items: center;
+  justify-content: center;
+  .ciclo {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #666666;
+    width: 251px;
+    height: 68px;
+    margin-bottom: 64px;
+  }
+  .avance {
+    height: 52px;
+    width: 226px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #666666;
+    margin-top: 16px;
+  }
+}
